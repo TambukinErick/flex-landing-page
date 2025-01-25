@@ -16,8 +16,8 @@ body {
 }
 
 section {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 17.5vw;
+    padding-right: 17.5vw;
 }
 
 .hero {
@@ -96,6 +96,51 @@ section {
     align-items: center;
     background-color: #6d747d;
     color:#E5E7EB;
+}
+
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vw;
+    padding-right: 24vw;
+    padding-left: 24vw;
+    padding-bottom: 8vw;
+}
+
+.random-info-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    gap: 3.5vw;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.box {
+    flex-basis: 9vw;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.item-text {
+    text-align: justify;
+    text-align-last: center;
+    text-justify: distribute;
+    color:#6d747d;
+    font-size: 18px;
+    
 }
 
 
