@@ -143,6 +143,39 @@ section {
     
 }
 
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6vw;
+    padding-left: 25vw;
+    padding-right: 24vw;
+    padding-bottom: 6vw;
+    background-color: #E5E7EB;
+    
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: flex-end;
+    margin: 0;
+}
+
 
 footer {
     margin-top: auto;
